@@ -21,3 +21,13 @@ Next, we created a workflow called "RNA-Seq-fastqc", and added all the necessary
 3. FastQC
 4. MultiQC
 
+Lastly, we imported the shared workflow. It contains several pipelines, which are combined in the last step (MultiQC):
+
+1. Input 
+2. Quality control: FastQC and Trimmomatic (read trimming based on QC)
+3. Alignment: eg, RNA STAR is used to map reads to reference genome (alignment results eg in .bam format)
+4. Quantification: featureCounts (and gene locations eg in .bed format) and Count Matrix 
+5. Summarising: MultiQC is the last step for each pipeline
+
+All in all, this workflow is a detailed RNA-Seq analysis.
+
