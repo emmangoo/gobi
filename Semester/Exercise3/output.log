@@ -1,0 +1,30 @@
+*******************************************************************
+* Genome-wide Complex Trait Analysis (GCTA)
+* version v1.95.0 Linux
+* Built at Jul 21 2025 17:30:18, by GCC 8.4
+* (C) 2010-present, Yang Lab, Westlake University
+* Please report bugs to Jian Yang <jian.yang@westlake.edu.cn>
+*******************************************************************
+Analysis started at 15:56:02 CET on Tue Nov 25 2025.
+Hostname: emma-laptop
+
+Accepted options:
+--mbfile /home/emma/mbfile.txt
+--maf 0.05
+--pheno /home/emma/Downloads/gcta-1.95.0-linux-kernel-3-x86_64/test.phen
+
+
+There are 1 PLINK genotype files specified in [/home/emma/mbfile.txt].
+
+Reading the PLINK FAM files ....
+3925 individuals have been included from the PLINK FAM files.
+Reading the PLINK BIM files ...
+1000 SNPs to be included from PLINK BIM files.
+Reading PLINK BED files ...
+Genotype data for 3925 individuals and 1000 SNPs have been included.
+Calculating allele frequencies ...
+Filtering SNPs with MAF > 0.05 ...
+After filtering SNPs with MAF > 0.05, there are 974 SNPs (26 SNPs with MAF < 0.05).
+
+Analysis finished at 15:56:02 CET on Tue Nov 25 2025
+Overall computational time: 0.07 sec.
