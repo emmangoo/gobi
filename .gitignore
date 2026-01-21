@@ -1,7 +1,9 @@
 # Large data files
 *.h5ad
 data/*.h5ad
-
+*.txt
+*.tsv
+*.csv
 # Python virtual env
 .venv/
 
